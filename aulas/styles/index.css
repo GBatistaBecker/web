@@ -1,0 +1,19 @@
+header p{
+    color:red !important; 
+    font-size: 28px;
+}
+
+header img{
+    margin: 100%;
+}
+
+.alinhar{
+    text-align: center;
+}
+
+
+
+h1{
+    color: red;
+    font-size: 50px;
+}

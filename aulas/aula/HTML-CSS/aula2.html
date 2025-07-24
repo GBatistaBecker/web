@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label for="cpf">CPF</label>
+        <input type="text" pattern="\d{3}\.\d{3}\.\d{3}\.\d{2}\" \ placeholder="000.000.000.00" id="cpf">
+        <br>
+
+        <label for="Nome: " id="Nome"></label>
+        <br>
+
+        <label>Email</label>
+        <input type="email" name="email" required placeholder="exemplo@email.com" id="email">
+        <br>
+        <br>
+
+        <label for="CEP">Cep: </label>
+        <input type="text" name="CEP" placeholder="Digite um CEP válido" id="cep">
+        <br>
+        <br>
+
+        <label for="Estado">Estado</label>
+        <select name="Estado" id="estado" required>
+            <option value="SC">SC</option>  
+            <option value="SP">SP</option>
+            <option value="RJ">RJ</option>
+            <option value="PR">PR</option>
+        </select>
+    </form>
+    <br>
+    <!-- PARTE 2 -->
+    <form>
+        <label>Mensagem</label>
+        <textarea name="Mensagem" rows="3" placeholder="Dugite uma mensage..."></textarea>
+        <br><br>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
