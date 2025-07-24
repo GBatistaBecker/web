@@ -1,0 +1,18 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom,  #ffffff, #B0ACAC);
+}
+
+form{
+    border-style: solid;
+    padding: 100px;
+    background-color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+button:hover{
+    transform: scale(1.2);
+}

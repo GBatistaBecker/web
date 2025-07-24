@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding-top: 320px;
+    gap: 100px;
+}
+
+.menu-esquerdo{
+    border-style: solid;
+    padding: 15px;
+}
+
+.menu-direito{
+    border-style: solid;
+    padding: 15px;
+}

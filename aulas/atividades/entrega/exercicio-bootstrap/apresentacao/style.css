@@ -1,0 +1,25 @@
+.foto-perfil {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.text-light {
+  margin-right: 1rem;
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+
+.text-light p{
+  color: black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+  background: linear-gradient(to bottom, #ffffff, #bebebe);
+}
+
+main{
+  min-height:  57vh;
+}

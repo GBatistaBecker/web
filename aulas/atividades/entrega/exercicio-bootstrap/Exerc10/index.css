@@ -1,0 +1,9 @@
+body {
+  background-color: white;
+  color: black;
+}
+
+[data-bs-theme="dark"] body {
+  background-color: #222;
+  color: white;
+}

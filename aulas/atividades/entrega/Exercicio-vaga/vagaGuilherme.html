@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="vagaGuilherme.css">
+    <title>Formulário de Emprego</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Trabalhe conosco!</h1>
+
+        <form>
+        <br> <br>
+
+        <label for="nome">Nome: </label>
+        <input type="text" id="nome" placeholder="Nome completo" required>
+        <br> <br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="exemplo@email.com" required>
+        <br> <br>
+
+        <label for="interesse">Area de Interesse</label>
+        <br>
+        <select name="interesse" id="interesse" required>
+        <option value="desenvolvimento">Desenvolvimento</option>
+        <option value="design">Design</option>
+        <option value="suporte">Suporte</option>
+        <option value="Comercial">Comercial</option>
+        </select>
+        <br> <br>
+
+        <label for="experiencia">Experiencia</label>
+        <br>
+        <select name="experiencia" id="experiencia">
+        <option value="junior">Júnior</option>
+        <option value="pleno">Pleno</option>
+        <option value="senior">Sênior</option>
+        </select>
+        <br> <br>
+
+        <label for="curriculo">Link para verificação do currículo:</label>
+        <br>
+        <input type="url" name="link" id="link" placeholder="https://drive.google.com/usuariocurriculo" required>
+        <br> <br>
+
+        <label for="disponibilidade">Nos informe sua disponibilidade de horário.</label>
+        <br>
+        <textarea name="horariodisp" 
+        rows="3"
+         placeholder="Eu posso..."></textarea>
+         <br> <br>
+
+         <label for="apresentacao">Carta de apresentação.</label>
+         <br>
+        <textarea name="apresentacao" 
+        rows="3"
+        placeholder="Mensagem..."></textarea>
+         <br> <br>
+
+         <button type="submit">Enviar cadastro.</button>
+    </form>
+    </div>
+</body>
+</html>

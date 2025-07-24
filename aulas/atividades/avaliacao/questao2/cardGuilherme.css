@@ -1,0 +1,24 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: lightcyan;
+    align-self: center;
+    margin-top: 40px;
+}
+
+.nome{
+    text-align: center;
+
+}
+
+.card{
+    background-color: white;
+    border-style: solid;
+    border-radius: 15px;
+    padding: 10px;
+    gap: 15px;
+}
+
+.descricao{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
