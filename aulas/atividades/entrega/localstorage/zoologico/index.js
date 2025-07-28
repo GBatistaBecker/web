@@ -39,8 +39,8 @@ function listarAnimais() {
     });
 }
 
-document.getElementById("resetar").addEventListener("click", function () {
-    if (confirm("Tem certeza que deseja apagar todos os cadastros?")) {
+document.getElementById("deletar").addEventListener("click", function () {
+    if (confirm("Você tem certeza que deseja apagar os cadastros?")) {
         localStorage.removeItem("animais");
         listarAnimais();
     }

@@ -1,0 +1,50 @@
+html, body {
+    font-family: sans-serif;
+    height: 100%;
+    margin: 20 px;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(to bottom, #ffffff, #bebebe);
+}
+
+h2, h3 {
+    margin-bottom: 10px;
+}
+
+form {
+    margin-bottom: 15px;
+}
+
+input {
+    display: block;
+    margin-bottom: 10px;
+    padding: 6px;
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 6px 12px;
+    margin-right: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.btn{
+    margin-top: 2px;
+}
+
+#lista-animais {
+    border: 1px solid #ccc;
+    padding: 15px;
+    background-color: #fff;
+}
+
+.animal {
+    border-bottom: 1px solid #ddd;
+    padding: 8px 0;
+}
